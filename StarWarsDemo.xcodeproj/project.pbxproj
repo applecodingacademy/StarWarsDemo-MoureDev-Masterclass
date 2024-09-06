@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -22,16 +22,8 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4BE0C1C12C87839000AFC3B1 /* StarWarsDemo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StarWarsDemo;
-			sourceTree = "<group>";
-		};
-		4BE0C1E42C879FBF00AFC3B1 /* StarWarsDemoTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StarWarsDemoTests;
-			sourceTree = "<group>";
-		};
+		4BE0C1C12C87839000AFC3B1 /* StarWarsDemo */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = StarWarsDemo; sourceTree = "<group>"; };
+		4BE0C1E42C879FBF00AFC3B1 /* StarWarsDemoTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = StarWarsDemoTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +130,7 @@
 				};
 			};
 			buildConfigurationList = 4BE0C1BA2C87839000AFC3B1 /* Build configuration list for PBXProject "StarWarsDemo" */;
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,7 +139,6 @@
 			);
 			mainGroup = 4BE0C1B62C87839000AFC3B1;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 4BE0C1C02C87839000AFC3B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
