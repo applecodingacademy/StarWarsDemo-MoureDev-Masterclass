@@ -1,0 +1,50 @@
+[
+  {
+    "nombre": "Jabba the Hutt",
+    "raza": "Hutt",
+    "descripcion": "Señor del crimen con base en Tatooine, conocido por su crueldad y su dominio sobre el bajo mundo de la galaxia.",
+    "planeta_origen": "Nal Hutta",
+    "epoca": "Era del Imperio Galáctico",
+    "afiliacion": "Sindicato del Crimen Hutt",
+    "habilidades": "Manipulación, negocios ilícitos",
+    "armas": "Guardia personal y trampas",
+    "id": 3636,
+    "imagen": "jabbathehutt"
+  },
+  {
+    "nombre": "Luke Skywalker",
+    "raza": "Humano",
+    "descripcion": "Héroe de la Alianza Rebelde y Caballero Jedi. Hijo de Anakin Skywalker y Padmé Amidala.",
+    "planeta_origen": "Tatooine",
+    "epoca": "Era del Imperio Galáctico",
+    "afiliacion": "Alianza Rebelde, Nueva República",
+    "habilidades": "Uso de la Fuerza, combate con sable de luz, pilotaje",
+    "armas": "Sable de luz",
+    "id": 6629,
+    "imagen": "lukeskywalker"
+  },
+  {
+    "nombre": "Boba Fett",
+    "raza": "Humano (clon)",
+    "descripcion": "Cazarrecompensas notorio, clon inalterado del cazarrecompensas Jango Fett, famoso por su eficacia y sigilo.",
+    "planeta_origen": "Kamino",
+    "epoca": "Era del Imperio Galáctico, Era de la Nueva República",
+    "afiliacion": "Independiente",
+    "habilidades": "Combate, caza de recompensas",
+    "armas": "Armadura Mandaloriana, blaster, jetpack",
+    "id": 7571,
+    "imagen": "bobafett"
+  },
+  {
+    "nombre": "Ezra Bridger",
+    "raza": "Humano",
+    "descripcion": "Joven Jedi que lucha contra el Imperio como parte del equipo rebelde en la serie animada 'Star Wars Rebels'.",
+    "planeta_origen": "Lothal",
+    "epoca": "Era del Imperio Galáctico",
+    "afiliacion": "Alianza Rebelde",
+    "habilidades": "Uso de la Fuerza, combate con sable de luz",
+    "armas": "Sable de luz azul",
+    "id": 5098,
+    "imagen": "ezrabridger"
+  }
+]

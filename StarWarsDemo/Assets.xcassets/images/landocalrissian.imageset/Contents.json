@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "landocalrissian.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
