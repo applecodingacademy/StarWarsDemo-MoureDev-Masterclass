@@ -3,8 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		27CE81F92C8B9BC900A914E9 /* StarWarsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE81F72C8B9BC900A914E9 /* StarWarsDemoTests.swift */; };
+		27CE82062C8B9BE100A914E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE81FE2C8B9BE100A914E9 /* ContentView.swift */; };
+		27CE82072C8B9BE100A914E9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE81FF2C8B9BE100A914E9 /* Model.swift */; };
+		27CE82082C8B9BE100A914E9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE82002C8B9BE100A914E9 /* Repository.swift */; };
+		27CE82092C8B9BE100A914E9 /* StarCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE82012C8B9BE100A914E9 /* StarCardView.swift */; };
+		27CE820A2C8B9BE100A914E9 /* StarCardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE82022C8B9BE100A914E9 /* StarCardVM.swift */; };
+		27CE820B2C8B9BE100A914E9 /* StarWarsDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE82042C8B9BE100A914E9 /* StarWarsDemoApp.swift */; };
+		27CE820C2C8B9BE100A914E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CE81FA2C8B9BE100A914E9 /* Preview Assets.xcassets */; };
+		27CE820D2C8B9BE100A914E9 /* StarWars Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 27CE81FB2C8B9BE100A914E9 /* StarWars Test.json */; };
+		27CE820E2C8B9BE100A914E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27CE81FD2C8B9BE100A914E9 /* Assets.xcassets */; };
+		27CE820F2C8B9BE100A914E9 /* StarWars.json in Resources */ = {isa = PBXBuildFile; fileRef = 27CE82032C8B9BE100A914E9 /* StarWars.json */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4BE0C1E72C879FBF00AFC3B1 /* PBXContainerItemProxy */ = {
@@ -17,14 +31,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27CE81F72C8B9BC900A914E9 /* StarWarsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDemoTests.swift; sourceTree = "<group>"; };
+		27CE81FA2C8B9BE100A914E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27CE81FB2C8B9BE100A914E9 /* StarWars Test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "StarWars Test.json"; sourceTree = "<group>"; };
+		27CE81FD2C8B9BE100A914E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27CE81FE2C8B9BE100A914E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27CE81FF2C8B9BE100A914E9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		27CE82002C8B9BE100A914E9 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		27CE82012C8B9BE100A914E9 /* StarCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCardView.swift; sourceTree = "<group>"; };
+		27CE82022C8B9BE100A914E9 /* StarCardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCardVM.swift; sourceTree = "<group>"; };
+		27CE82032C8B9BE100A914E9 /* StarWars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarWars.json; sourceTree = "<group>"; };
+		27CE82042C8B9BE100A914E9 /* StarWarsDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsDemoApp.swift; sourceTree = "<group>"; };
 		4BE0C1BF2C87839000AFC3B1 /* StarWarsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE0C1E32C879FBF00AFC3B1 /* StarWarsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		4BE0C1C12C87839000AFC3B1 /* StarWarsDemo */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = StarWarsDemo; sourceTree = "<group>"; };
-		4BE0C1E42C879FBF00AFC3B1 /* StarWarsDemoTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = StarWarsDemoTests; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4BE0C1BC2C87839000AFC3B1 /* Frameworks */ = {
@@ -44,11 +64,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27CE81F82C8B9BC900A914E9 /* StarWarsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				27CE81F72C8B9BC900A914E9 /* StarWarsDemoTests.swift */,
+			);
+			path = StarWarsDemoTests;
+			sourceTree = "<group>";
+		};
+		27CE81FC2C8B9BE100A914E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27CE81FA2C8B9BE100A914E9 /* Preview Assets.xcassets */,
+				27CE81FB2C8B9BE100A914E9 /* StarWars Test.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27CE82052C8B9BE100A914E9 /* StarWarsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				27CE81FC2C8B9BE100A914E9 /* Preview Content */,
+				27CE81FD2C8B9BE100A914E9 /* Assets.xcassets */,
+				27CE81FE2C8B9BE100A914E9 /* ContentView.swift */,
+				27CE81FF2C8B9BE100A914E9 /* Model.swift */,
+				27CE82002C8B9BE100A914E9 /* Repository.swift */,
+				27CE82012C8B9BE100A914E9 /* StarCardView.swift */,
+				27CE82022C8B9BE100A914E9 /* StarCardVM.swift */,
+				27CE82032C8B9BE100A914E9 /* StarWars.json */,
+				27CE82042C8B9BE100A914E9 /* StarWarsDemoApp.swift */,
+			);
+			path = StarWarsDemo;
+			sourceTree = "<group>";
+		};
 		4BE0C1B62C87839000AFC3B1 = {
 			isa = PBXGroup;
 			children = (
-				4BE0C1C12C87839000AFC3B1 /* StarWarsDemo */,
-				4BE0C1E42C879FBF00AFC3B1 /* StarWarsDemoTests */,
+				27CE82052C8B9BE100A914E9 /* StarWarsDemo */,
+				27CE81F82C8B9BC900A914E9 /* StarWarsDemoTests */,
 				4BE0C1C02C87839000AFC3B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,9 +130,6 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				4BE0C1C12C87839000AFC3B1 /* StarWarsDemo */,
-			);
 			name = StarWarsDemo;
 			packageProductDependencies = (
 			);
@@ -99,9 +149,6 @@
 			);
 			dependencies = (
 				4BE0C1E82C879FBF00AFC3B1 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				4BE0C1E42C879FBF00AFC3B1 /* StarWarsDemoTests */,
 			);
 			name = StarWarsDemoTests;
 			packageProductDependencies = (
@@ -154,6 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CE820C2C8B9BE100A914E9 /* Preview Assets.xcassets in Resources */,
+				27CE820D2C8B9BE100A914E9 /* StarWars Test.json in Resources */,
+				27CE820E2C8B9BE100A914E9 /* Assets.xcassets in Resources */,
+				27CE820F2C8B9BE100A914E9 /* StarWars.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CE82062C8B9BE100A914E9 /* ContentView.swift in Sources */,
+				27CE82072C8B9BE100A914E9 /* Model.swift in Sources */,
+				27CE82082C8B9BE100A914E9 /* Repository.swift in Sources */,
+				27CE82092C8B9BE100A914E9 /* StarCardView.swift in Sources */,
+				27CE820A2C8B9BE100A914E9 /* StarCardVM.swift in Sources */,
+				27CE820B2C8B9BE100A914E9 /* StarWarsDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27CE81F92C8B9BC900A914E9 /* StarWarsDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
